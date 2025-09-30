@@ -1,0 +1,29 @@
+<div class="container">
+  <header class="header">
+    <h1>{{ title }}</h1>
+    <p>画像から動画を作成するアプリケーション</p>
+  </header>
+
+  <main class="main-content">
+    <section class="upload-section">
+      <h2>画像アップロード</h2>
+      <div class="upload-area">
+        <p>test画像をドラッグ&ドロップまたはクリックしてアップロード</p>
+        <button class="upload-button">ファイルを選択</button>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <h2>動画作成</h2>
+      <div class="video-controls">
+        <button class="create-video-button" disabled>動画を作成</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Album Video Application</p>
+  </footer>
+</div>
+
+<router-outlet></router-outlet>
